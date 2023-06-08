@@ -19,6 +19,8 @@ public class Campeonato {
 
     private String nome;
 
+    private int ano;
+
     @OneToMany(mappedBy = "campeonato")
     private List<Partida> partidas;
 }

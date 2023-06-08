@@ -20,6 +20,8 @@ public class Time {
     private Long id;
 
     private String nome;
-    private Date dataNascimento;
-    private double altura;
+
+    private int vitorias;
+
+    private int saldoGols;
 }
