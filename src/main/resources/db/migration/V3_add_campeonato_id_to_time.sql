@@ -1,0 +1,1 @@
+ALTER TABLE time ADD COLUMN campeonato_id bigint;
