@@ -7,7 +7,6 @@ Esta é uma API Rest de exemplo para gerenciamento de campeonatos de futebol. A 
 - Java 17
 -   Spring Boot
 -   Spring Data JPA
--   MySQL
 -   Swagger
 -   FlywayDB
 
