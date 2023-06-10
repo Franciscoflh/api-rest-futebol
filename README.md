@@ -20,7 +20,8 @@ Esta é uma API Rest de exemplo para gerenciamento de campeonatos de futebol. A 
 
 ## Documentação da API
 
-A API é documentada utilizando o Swagger. Após executar o projeto, você pode acessar a documentação em [http://localhost:8090/swagger-ui.html](http://localhost:8090/swagger-ui.html).
+A API é documentada utilizando o Swagger. Após executar o projeto, você pode acessar a documentação 
+em [http://localhost:server-port/swagger-ui.html](http://localhost:8090/swagger-ui.html).
 
 A documentação descreve os endpoints disponíveis, os parâmetros esperados em cada requisição e as respostas retornadas pela API.
 
