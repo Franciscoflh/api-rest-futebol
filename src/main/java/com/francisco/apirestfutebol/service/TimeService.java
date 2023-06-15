@@ -60,7 +60,7 @@ public class TimeService {
     public List<TimeDTO> getTabelaCampeonatoById(Long campeonatoId) {
         List<Time> times = timeRepository.findByCampeonatoId(campeonatoId);
         List<TimeDTO> tabela = new ArrayList<>(times.stream().map(TimeDTO::fromTime).toList());
-        tabela.sort(Comparator.comparing(TimeDTO::getVitorias).thenComparing(TimeDTO::getSaldoGols));
+        tabela.sort(Comparator.comparing(TimeDTO::getVitorias).thenComparing(TimeDTO::getSaldoGols).reversed());
         return tabela;
     }
 }
